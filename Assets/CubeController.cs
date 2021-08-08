@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class CubeController : MonoBehaviour
 {
-    //cubeのためのコンポーネントを入れる
-    //public float cube;
-
-    //Cubeのコンポーネントを入れる（追加）
-    //Rigidbody2D rigid2D;
-
     //キューブの移動速度
     private float speed = -12;
 
@@ -22,9 +16,6 @@ public class CubeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        //Rigidbody2Dのコンポ－ネントを取得する（追加）
-        //this.rigid2D = GetComponent<Rigidbody2D>();
 
     }
 
